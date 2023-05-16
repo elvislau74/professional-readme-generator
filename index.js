@@ -26,11 +26,6 @@ const questions = [
       message: 'Please describe how to use your site.',
     },
     {
-      type: 'input',
-      name: 'credits',
-      message: 'Are there any contributors or other credits you would like to provide?',
-    },
-    {
       type: 'list',
       name: 'license',
       message: 'What License did you use for your project?',
@@ -53,8 +48,28 @@ const questions = [
     },
     {
         type: 'input',
+        name: 'tests',
+        message: 'Please provide any instructions for testing.',
+    },
+    {
+        type: 'input',
+        name: 'contributors',
+        message: 'Please provide any information on contributors.',
+    },
+    {
+        type: 'input',
+        name: 'credits',
+        message: 'Are there any other credits you would like to provide?',
+    },
+    {
+        type: 'input',
         name: 'github',
         message: 'Please provide a link to your github.',
+    },
+    {
+        type: 'input',
+        name: 'email',
+        message: 'Please provide your email.',
     },
     {
         type: 'input',
