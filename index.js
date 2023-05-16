@@ -96,7 +96,8 @@ function init() {
     .prompt(questions)
     .then((answers) => {
         console.log(answers);
-        writeToFile(answers.filename, generateReadme.generateMarkdown(answers));
+        const license = generateReadme.renderLicenseBadge(answers.license);
+        writeToFile(answers.filename, generateReadme.generateMarkdown(answers, license.label, license.badge, license.link));
 });
 
 }
