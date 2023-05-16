@@ -1,6 +1,6 @@
 // TODO: Include packages needed for this application
 const inquirer = require('inquirer');
-const writeReadme = require('writeReadme');
+const generateMarkdown = require('./utils/generateMarkdown');
 const fs = require('fs');
 
 // TODO: Create an array of questions for user input
@@ -61,6 +61,11 @@ const questions = [
         name: 'livesite',
         message: 'Please provide a link to your livesite.',
     },
+    {
+        type: 'input',
+        name: 'filename',
+        message: 'What would you like to name your readme file? (Do not include the .md, and no spaces)',
+    },
   ];
 
 // TODO: Create a function to write README file
@@ -71,7 +76,15 @@ function writeToFile(fileName, data) {
 }
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer
+    .prompt(questions)
+    .then((answers) => {
+        console.log(answers);
+        writeToFile(answers.filename, generateMarkdown.generateMarkdown(answers));
+});
+
+}
 
 // Function call to initialize app
 init();
