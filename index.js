@@ -53,8 +53,8 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'contributors',
-        message: 'Please provide any information on contributors.',
+        name: 'contributions',
+        message: 'Please provide any contribution guidelines.',
     },
     {
         type: 'input',
@@ -64,7 +64,7 @@ const questions = [
     {
         type: 'input',
         name: 'github',
-        message: 'Please provide a link to your github.',
+        message: 'Please provide your github username (case-sensitive).',
     },
     {
         type: 'input',
@@ -79,7 +79,7 @@ const questions = [
     {
         type: 'input',
         name: 'filename',
-        message: 'What would you like to name your readme file? (Do not include the .md, and no spaces)',
+        message: 'What would you like to name your readme file (Do not include the .md, and no spaces)?',
     },
   ];
 
