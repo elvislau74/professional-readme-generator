@@ -15,16 +15,31 @@ function generateMarkdown(data) {
   return `# ${data.title}\n\n
   ## Description\n
   ${data.description}\n\n
+  ## Table of Contents\n
+  - [Installation](#installation)\n
+  - [Usage](#usage)\n
+  - [Contributing](#contributing)\n
+  - [Tests](#tests)\n
+  - [Credits](#credits)\n
+  - [License](#license)\n
+  - [Questions](#questions)\n\n
   ## Installation\n
   ${data.installation}\n\n
   ## Usage\n
   ${data.usage}\n
-  <a href = "${data.github}">Click here for the Github Repository</a>\n
-  <a href = "${data.livesite}">Click here for the Live Site</a>\n\n
+  [Click here for the Live Site](${data.livesite})\n\n
+  ## Contributing\n
+  ${data.contributions}\n\n
+  ## Tests\n
+  ${data.tests}\n\n
   ## Credits\n
   ${data.credits}\n\n
   ## License\n
-  ${data.license}
+  ${data.license}\n\n
+  ## Questions?\n
+  For any questions, please click on my email provided below and visit my Github:\n
+  - [Email me here](mailto:${data.email})\n
+  - [Click here for my Github](https://github.com/${data.github}/)
 `;
 }
 
