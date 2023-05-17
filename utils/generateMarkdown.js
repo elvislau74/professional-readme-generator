@@ -1,9 +1,10 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
+// This function holds a list/array of Licenses and their related links and badges in objects
+// When the user passes in a License through inquirer, the licenseList array is put through a for loop to check which license name matches the one input by the user, and returns that array index's license object
+// If there is no license, the keys of the object are empty string
 function renderLicenseBadge(license) {
   const licenseList = [
     {
-      name: 'none',
+      name: 'None',
       label: '',
       badge: '',
       link: '',
@@ -94,15 +95,7 @@ function renderLicenseBadge(license) {
   }
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
-
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
-
-// TODO: Create a function to generate markdown for README
+// This function generates markdown for README file by taking in data from the inquirer module
 function generateMarkdown(data, licenseLabel, licenseBadge, licenseLink) {
   return `# ${data.title}\n
   [![${licenseLabel}](${licenseBadge})](${licenseLink})
@@ -136,6 +129,7 @@ function generateMarkdown(data, licenseLabel, licenseBadge, licenseLink) {
 `;
 }
 
+// Export the generateMarkdown and renderLicenseBadge function to be used in the index.js file
 module.exports = {
   generateMarkdown,
   renderLicenseBadge
