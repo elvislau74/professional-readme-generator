@@ -1,9 +1,9 @@
-# Porfolio project
+# Portfolio
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
   ## Description
 
-  This is my portfolio project
+  This is my professional portfolio.
 
 
   ## Table of Contents
@@ -30,9 +30,9 @@
 
   ## Usage
 
-  Scroll through my site and look at all my past works.
+  Just scroll through my site to see all of my past works.
 
-  [Click here for the Live Site](github.com)
+  [Click here for the Live Site](https://github.com)
 
 
   ## Contributing
