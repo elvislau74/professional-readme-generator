@@ -3,7 +3,7 @@
 
 ## Description
 
-Blah blah
+In this project, we were introduced to Node.js. With Node.js, we are able to build a functioning program that can be run through the command-line/terminal. We also learned about installing packages through npm like inquirer in order to prompt the user with questions.   
 
 
 ## Table of Contents
@@ -25,12 +25,12 @@ Blah blah
 
 ## Installation
 
-N/A
+In order to run this program, the user must have Node.js v16 and inquirer v8.2.4 installed specifically. After downloading Node.js v16, the user can install inquirer by typing into the terminal, 'npm i inquirer@8.2.4' (do not include the quotation marks).  
 
 
 ## Usage
 
-Blah blah
+As shown in the video below, in the terminal, once the user enters 'node index', they will be prompted with many questions pertaining to their project and desired readme file. Once all the questions are answered, a professional readme file will be generated as requested by the user. 
 
 
 ## Contributing
@@ -45,7 +45,7 @@ N/A
 
 ## Credits
 
-N/A
+List of project licenses were grabbed from [here](https://gist.github.com/lukas-h/2a5d00690736b4c3a7ba).
 
 
 ## License
