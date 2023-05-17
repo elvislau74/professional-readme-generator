@@ -32,6 +32,10 @@ In order to run this program, the user must have Node.js v16 and inquirer v8.2.4
 
 As shown in the video below, in the terminal, once the user enters 'node index', they will be prompted with many questions pertaining to their project and desired readme file. Once all the questions are answered, a professional readme file will be generated as requested by the user. 
 
+
+https://github.com/elvislau74/professional-readme-generator/assets/126195092/6c39767d-47c2-4993-a76f-b5632ce0cd0c
+
+
 If the video above does not work, [click here](https://drive.google.com/file/d/1XK4LhDMwLisIfIVYdksl4nrWrcWMuhiN/view).
 
 
